@@ -32,6 +32,7 @@ so you have a few expreinces of Bootstrap, you will feel easy to understand and 
 <img style="width: 100%;" src="http://envato.pure.kla6.net/220311_result_03.jpg">
 The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in <code>/index_data.js</code> file.
 
+
 ```
 var k6_head_menu = [ { text: 'Home'    , href    : '#'                            , onclick: `alert( 'This is an onclick event example.' )`, },
                      { text: 'Docs'    , href    : '/'                            ,                                                          },
@@ -44,7 +45,7 @@ var k6_head_menu = [ { text: 'Home'    , href    : '#'                          
 
 ## Page Index & Link Auto Generation
 <img style="width: 100%;" src="http://envato.pure.kla6.net/220311_result_05.jpg">
-The page content index on the right aside will be automatically generated according to the article content, by parsing `&lt;h1>` ~ `&lt;h6>` tags with a JS function.
+The page content index on the right aside will be automatically generated according to the article content, by parsing <code>&lt;h1></code> ~ <code>&lt;h6></code> tags with a JS function.
 Also, it generate mouse hover hash links on each head tags as well.
 
 ## PHP Inclusion Structure
