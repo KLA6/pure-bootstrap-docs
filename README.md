@@ -14,25 +14,20 @@ It targets to achieve the universal and conventional design, which accentuates t
 It provides simple JS functions which can change the theme & color of your website.
 The functions are located in `/index_init.js` file.
 If you have basic JS knowlege, you can add more color sets by adding JSON variables in `k6_color()` funtion.
-```
-function k6_theme( mode = '' ) { ... } // E.g., k6_theme( 'dark' )
+<pre><code>function k6_theme( mode = '' ) { ... } // E.g., k6_theme( 'dark' )
 function k6_color( mode = '' ) {
   let C = { your_color_set: { 'bs-primary': 'RRGGBB', ... }, ... }
   ...
-} // E.g., k6_color( 'your_color_set' )
-```
+} // E.g., k6_color( 'your_color_set' )</code></pre>
 
 ## Fully Responsive & Mobile Ready
 As Bootstrap is fully responsive, it is fully responsive as well.
 Also, it uses Bootstrap's own <a href="https://getbootstrap.com/docs/5.1/components/navbar" target="_blank">Navbar</a> and <a href="https://getbootstrap.com/docs/5.1/components/offcanvas" target="_blank">Offcanvas</a>,
 so you have a few expreinces of Bootstrap, you will feel easy to understand and customize the code structure.
 
-
 ## Navigation by JSON
 <img style="width: 100%;" src="http://envato.pure.kla6.net/220311_result_03.jpg">
 The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in <code>/index_data.js</code> file.
-
-
 <pre><code>
 var k6_head_menu = [ { text: 'Home'    , href    : '#'                            , onclick: `alert( 'This is an onclick event example.' )`, },
                      { text: 'Docs'    , href    : '/'                            ,                                                          },
