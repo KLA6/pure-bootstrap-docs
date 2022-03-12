@@ -43,7 +43,7 @@ var k6_head_menu = [ { text: 'Home'    , href    : '#'                          
 
 ## Page Index & Link Auto Generation
 <img style="width: 100%;" src="http://envato.pure.kla6.net/220311_result_05.jpg">
-The page content index on the right aside will be automatically generated according to the article content, by parsing `<h1>` ~ `<h6>` tags with a JS function.
+The page content index on the right aside will be automatically generated according to the article content, by parsing `&lt;h1>` ~ `&lt;h6>` tags with a JS function.
 Also, it generate mouse hover hash links on each head tags as well.
 
 ## PHP Inclusion Structure
