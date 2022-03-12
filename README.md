@@ -33,7 +33,7 @@ so you have a few expreinces of Bootstrap, you will feel easy to understand and 
 The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in <code>/index_data.js</code> file.
 
 
-```
+<pre><code>
 var k6_head_menu = [ { text: 'Home'    , href    : '#'                            , onclick: `alert( 'This is an onclick event example.' )`, },
                      { text: 'Docs'    , href    : '/'                            ,                                                          },
                      { text: 'Blog'    , href    : 'https://blog.kla6.net'        , target : '_blank'                                      , },
@@ -41,7 +41,7 @@ var k6_head_menu = [ { text: 'Home'    , href    : '#'                          
                                                      {  text   : 'a Dropdown Menu', href   : '#', },
                                                      {  text   : null             ,               },
 {  text   : 'by JSON Editing', href   : '#', }, ], } ]
-```
+</code></pre>
 
 ## Page Index & Link Auto Generation
 <img style="width: 100%;" src="http://envato.pure.kla6.net/220311_result_05.jpg">
