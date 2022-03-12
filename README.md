@@ -30,7 +30,7 @@ so you have a few expreinces of Bootstrap, you will feel easy to understand and 
 
 ## Navigation by JSON
 <img style="width: 100%;" src="http://envato.pure.kla6.net/220311_result_03.jpg">
-The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in `/index_data.js` file.
+The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in <code>/index_data.js</code> file.
 
 ```
 var k6_head_menu = [ { text: 'Home'    , href    : '#'                            , onclick: `alert( 'This is an onclick event example.' )`, },
