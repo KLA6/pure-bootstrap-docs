@@ -8,11 +8,11 @@
 
 function k6_hex_rgb( hex ) { return hex.match( new RegExp( '(.{' + hex.length / 3 + '})', 'g' ) ).map( l => { return parseInt( hex.length % 2 ? l + l : l, 16 ) } ).join( ',' ) }
 
-function k6_link( obj ) { return `${ obj.href    ? `href   ="${obj.href   }"` : '' }"
-                                  ${ obj.target  ? `target ="${obj.target }"` : '' }"
-                                  ${ obj.title   ? `title  ="${obj.title  }"` : '' }"
-                                  ${ obj.onclick ? `onclick="${obj.onclick}"` : '' }"
-                                  ${ obj.tooltip ? `data-bs-toggle="tooltip"` : '' }"` }
+function k6_link( obj ) { return `${ obj.href    ? `href   ="${obj.href   }"` : '' }
+                                  ${ obj.target  ? `target ="${obj.target }"` : '' }
+                                  ${ obj.title   ? `title  ="${obj.title  }"` : '' }
+                                  ${ obj.onclick ? `onclick="${obj.onclick}"` : '' }
+                                  ${ obj.tooltip ? `data-bs-toggle="tooltip"` : '' }` }
 
 function k6_color( mode = '' ) { // The color code must be RRGGBB format, not #RRGGBB, RGB, #RGB or rgb( ... ) format.
   let O

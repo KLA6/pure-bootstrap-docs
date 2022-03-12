@@ -2,7 +2,6 @@
 <img style="width: 100%;" src="https://logo.kla6.net/download/logo_hori_colr_alon.svg" height="64">
 <br><br><br><br><br></p>
 
-
 <h1  class="fw-bold">Pure Bootstrap Docs</h1>
 <img class="mb-3 w-100" src="http://envato.pure.kla6.net/220311_result_01_2.jpg">
 <p>

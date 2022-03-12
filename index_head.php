@@ -18,7 +18,7 @@
       <ul  class="navbar-nav flex-row flex-wrap    mt-2 mb-3 my-md-0         ms-md-auto"                                                         id="k6-head-soc" ></ul>                             <!-- SOCIAL   -->
       <div class="d-flex                                                     ms-md-2"                                                            id="k6-head-btn" ><div class="me-auto"></div></div> <!-- BUTTON   -->
       <div class="d-block d-md-none position-fixed start-0 top-0 w-100 h-100 k6-z-n1"                     data-bs-toggle="collapse" data-bs-target="#k6-head-nav"
-                                                                                      ontouchstart="new bootstrap.Collapse( document.getElementById('k6-head-nav') ).hide()" ></div>                 <!-- BACKDROP -->
+                                                                                        ontouchend="new bootstrap.Collapse( document.getElementById('k6-head-nav') ).hide()" ></div>                 <!-- BACKDROP -->
     </div>
 
   </nav>

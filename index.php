@@ -22,14 +22,13 @@
       #k6-middle { min-height: calc(  100vh - 12rem ); } /* #k6-center { flex: 1; } */
       #k6-foot   { min-height: 4rem;                   }
 
-      @media( max-width:  767.98px ) { #k6-left  > div { width: 16rem; height:       100vh         ; max-width: 75vw; } #k6-left  .offcanvas-backdrop { width: 100vw; max-width : 100vw  ;                } } /*  md */
-      @media( max-width:  991.98px ) { #k6-right > div { width: 16rem; height:       100vh         ; max-width: 75vw; } #k6-right .offcanvas-backdrop { width: 100vw; max-width : 100vw  ; z-index: 1045; }
-                                                                                                                        #k6-right .offcanvas          {                                    z-index: 1055; } } /*  lg */
-      @media( max-width:  767.98px ) { #k6-head-nav    { width: 100% ; top   :               3rem  ;                             position : absolute;                                                     } } /*  md */ /* iPhone */
-      @media( min-width:  768px    ) { #k6-left  > div { width: 16rem; height: calc( 100vh - 4rem ); transform: none; top: 4rem; position: sticky; align-self: start; visibility: visible !important;     } } /*  md */
-      @media( min-width:  992px    ) { #k6-right > div { width: 12rem; height: calc( 100vh - 4rem ); transform: none; top: 4rem; position: sticky; align-self: start; visibility: visible !important;     } } /*  lg */
-      @media( min-width: 1400px    ) { #k6-left        {               margin-left :        -1rem  ;                                                                                                      } } /* xxl */
-      @media( min-width: 1400px    ) { #k6-right       {               margin-right:        -1rem  ;                                                                                                      } } /* xxl */
+      @media( max-width:  767.98px ) { #k6-left  > div { width: 16rem; height:       100vh         ; max-width: 75vw; } #k6-left  .offcanvas-backdrop { width: 100vw; max-width : 100vw  ;                                                        } } /*  md */
+      @media( max-width:  991.98px ) { #k6-right > div { width: 16rem; height:       100vh         ; max-width: 75vw; } #k6-right .offcanvas-backdrop { width: 100vw; max-width : 100vw  ; z-index: 1045; } #k6-right .offcanvas { z-index: 1055; } } /*  lg */
+      @media( max-width:  767.98px ) { #k6-head-nav    { width: 100% ; top   :               3rem  ;                             position : absolute;                                                                                             } } /*  md */ /* iPhone */
+      @media( min-width:  768px    ) { #k6-left  > div { width: 16rem; height: calc( 100vh - 4rem ); transform: none; top: 4rem; position: sticky; align-self: start; visibility: visible !important;                                             } } /*  md */
+      @media( min-width:  992px    ) { #k6-right > div { width: 12rem; height: calc( 100vh - 4rem ); transform: none; top: 4rem; position: sticky; align-self: start; visibility: visible !important;     } #k6-right .offcanvas { z-index: 1010; } } /*  lg */
+      @media( min-width: 1400px    ) { #k6-left        {               margin-left :        -1rem  ;                                                                                                                                              } } /* xxl */
+      @media( min-width: 1400px    ) { #k6-right       {               margin-right:        -1rem  ;                                                                                                                                              } } /* xxl */
     </style>
 
     <!-- <style> @import url( 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap' ); * { font-family: 'Noto Sans', sans-serif; } </style> Remove this line, if you don't want to use Google Font. -->
