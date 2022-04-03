@@ -1,5 +1,5 @@
 <p align="center"><br><br><br><br>
-<img style="width: 100%;" src="https://logo.kla6.net/download/logo_hori_colr_alon.svg" height="64">
+<img style="width: 100%;" src="https://raw.githubusercontent.com/KLA6/more-bootstrap/main/index_logo.svg" height="64">
 <br><br><br><br><br></p>
 
 <h1  class="fw-bold">Pure Bootstrap Docs</h1>
