@@ -77,5 +77,5 @@ function k6_color( mode = '' ) {
 <h2>Dependencies</h2>
 <ul>
   <li><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction" target="_blank">Bootstrap 5.1.3</a></li>
-  <li><a href="https://jquery.com/download"                                    target="_blank">jQuery 3.6.0</a>, but this dependency will be removed within next a few updates by replacing every jQuery part with Vanilla JS.</li>
+  <li><a href="https://jquery.com/download"                                    target="_blank">jQuery 3.6.0</a></li>
 </ul>
