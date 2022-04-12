@@ -3,7 +3,7 @@
 <br><br><br><br><br></p>
 
 <h1  class="fw-bold">Pure Bootstrap Docs</h1>
-<img class="mb-3 w-100" src="http://envato.pure.kla6.net/220311_result_01_2.jpg">
+<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/01.jpg">
 <p>
   <b>Pure Bootstrap Docs</b> is a <b>Single Page Website Template</b> for <b>Structured Online User Manual Documentation</b>.
   It uses the default characteristics of the Bootstrap itself, so the name is 'Pure Bootstrap'.
@@ -12,7 +12,7 @@
 </p>
 
 <h2>Changeable Theme & Color Set</h2>
-<img class="mb-3 w-100" src="http://envato.pure.kla6.net/220311_result_02_1.jpg">
+<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/02.jpg">
 <p>
   It provides simple JS functions which can change the theme & color of your website.
   The functions are located in <code>/index_init.js</code> file.
@@ -32,7 +32,7 @@ function k6_color( mode = '' ) {
 </p>
 
 <h2>Navigation by JSON</h2>
-<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/01.jpg">
+<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/03.jpg">
 <p>
   The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in <code>/index_data.js</code> file.
 </p>
@@ -45,7 +45,7 @@ function k6_color( mode = '' ) {
                                                      {  text   : 'by JSON Editing', href   : '#', }, ], } ]</code></pre>
 
 <h2>Page Index & Link Auto Generation</h2>
-<img class="mb-3 w-100" src="http://envato.pure.kla6.net/220311_result_05.jpg">
+<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/04.jpg">
 <p>
   The page content index on the right aside will be automatically generated according to the article content, by parsing <code>&lt;h1></code> ~ <code>&lt;h6></code> tags with a JS function.
   Also, it generate mouse hover hash links on each head tags as well.
@@ -67,7 +67,7 @@ function k6_color( mode = '' ) {
 &lt;/div></code></pre>
 
 <h2>Convenient Search Modal</h2>
-<img class="mb-3 w-100" src="http://envato.pure.kla6.net/220311_result_04.jpg">
+<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/05.jpg">
 <p>
   As more and more mobile users increase, it provides full screen search modal for a better search sight.
   At the same time, it conisdered PC users as well by caring the Tab key pressing navigation situation.
