@@ -32,7 +32,7 @@ function k6_color( mode = '' ) {
 </p>
 
 <h2>Navigation by JSON</h2>
-<img class="mb-3 w-100" src="http://envato.pure.kla6.net/220311_result_03.jpg">
+<img class="mb-3 w-100" src="https://github.com/KLA6/pure-bootstrap-docs/blob/main/README_image/01.jpg">
 <p>
   The navigation parts such as <sup>[1]</sup> primary heder, <sup>[2]</sup> secondary header, <sup>[3]</sup> left aside, <sup>[4]</sup> right aside and <sup>[5]</sup> footer are editable by JSON variable in <code>/index_data.js</code> file.
 </p>
